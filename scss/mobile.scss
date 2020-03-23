@@ -1,9 +1,18 @@
 // Widescreens
 @include mediaXL {
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 // Desktops and laptops
 @include mediaLg {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .slides {
+    align-items: center;
+  }
 }
 
 // tablets and small laptops
@@ -45,11 +54,34 @@
       height: 150px;
     }
   }
+
+  .about-info {
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "activity1"
+      "activity2"
+      "activity3";
+    grid-template-columns: 1fr;
+  }
+
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .slides {
+    align-items: center;
+  }
 }
 
 //smartphones
 @include mediaSm {
   main#home h1 {
     margin-top: 10vh;
+  }
+  .projects {
+    grid-template-columns: 1fr;
+  }
+  .slides {
+    align-items: center;
   }
 }
