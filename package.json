@@ -4,11 +4,20 @@
   "description": "responsive portfolio website",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "scss": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "Stephanie Luo",
   "license": "ISC",
   "dependencies": {
     "node-sass": "^4.13.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephanieluo18/personalwebsite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stephanieluo18/personalwebsite/issues"
+  },
+  "homepage": "https://github.com/stephanieluo18/personalwebsite#readme"
 }

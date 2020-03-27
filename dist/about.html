@@ -15,17 +15,30 @@
     />
 
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>About Me</title>
   </head>
 
-  <body>
+  <body id="Adobe">
     <div class="overlay"></div>
-    <header>
-      <div class="menu-btn">
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
+
+    <div class="fixed-header">
+      <div class="container">
+        <div class="nav-bar">
+          <img src="img/logo2.png" alt="logo" class="logo" />
+          <ul class="menu2">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="work.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
       </div>
+    </div>
+
+    <header>
+      
       <nav class="menu">
         <div class="menu-branding">
           <div class="portrait"></div>
@@ -61,19 +74,30 @@
     </header>
 
     <main id="about">
-      <h1 class="lg-heading">About Me</h1>
+      <h1 class="lg-heading">About <span class="text-secondary"> Me </span></h1>
       <div class="about-info">
         <img src="img/portrait.png" alt="Stephanie Luo" class="bio-image" />
         <div class="bio">
-          <h3 class="text-secondary">
-            I am from New Jersey, but I am currently based in Atlanta, GA,
-            studying at the Georgia Institute of Technology. I'm a Computational
-            Media major, specializing in people and interactive design.
-          </h3>
           <p>
-            I'm interested in UI/UX Design, UX research, and coding. Outside of
-            the classroom, I enjoy exploring the city of Atlanta and going on a
-            lot of tasty adventures.
+            I am from New Jersey, but I am currently based in Atlanta, GA,
+            studying at the
+            <span class="text-secondary">
+              Georgia Institute of Technology.
+            </span>
+            I'm a
+            <span class="text-secondary">
+              Computational Media
+            </span>
+            major, specializing in people and interactive design.
+          </p>
+          <p>
+            I'm interested in
+            <span class="text-secondary"> UX/UI Design</span>,
+            <span class="text-secondary"> UX Research</span>, and some
+            <span class="text-secondary"> coding</span>. Outside of the
+            classroom, I enjoy exploring the city of Atlanta and going on a lot
+            of tasty adventures. Above all, I enjoy bothering my friends and
+            going out for <span class="text-secondary"> bubble tea</span>.
           </p>
         </div>
       </div>

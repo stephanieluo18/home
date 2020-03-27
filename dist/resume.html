@@ -15,22 +15,36 @@
     />
 
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>resume</title>
     <style>
-      .container {
-        padding: 30px;
-      }
+        body {
+          background: #444;
+        }
+      </style>
     </style>
   </head>
 
   <body>
     <div class="overlay"></div>
-    <header>
-      <div class="menu-btn">
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
+
+    <div class="fixed-header">
+      <div class="container">
+        <div class="nav-bar">
+          <img src="img/logo2.png" alt="logo" class="logo" />
+          <ul class="menu2">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="work.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
       </div>
+    </div>
+
+    <header>
+     
       <nav class="menu">
         <div class="menu-branding">
           <div class="portrait"></div>
@@ -66,9 +80,11 @@
     </header>
 
     <main id="about">
+
       <h4 class="lg-heading">
-        A UX/UI Designer passionate about helping others :)
+        A <span class="text-secondary"> UX/UI Designer </span> passionate about <span class="text-secondary"> helping </span>others :)
       </h4>
+    
       <div class="container">
         <embed
           src="img/ResumeDesign.pdf"
