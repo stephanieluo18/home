@@ -4,11 +4,13 @@
   "description": "responsive portfolio website",
   "main": "index.js",
   "scripts": {
-    "scss": "node-sass -w scss/ -o dist/css/ --recursive"
+    "scss": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Stephanie Luo",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1"
   },
   "devDependencies": {},
@@ -19,5 +21,5 @@
   "bugs": {
     "url": "https://github.com/stephanieluo18/personalwebsite/issues"
   },
-  "homepage": "https://github.com/stephanieluo18/personalwebsite#readme"
+  "homepage": "https://github.com/stephanieluo18/personalwebsite"
 }
