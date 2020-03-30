@@ -58,14 +58,14 @@
       background: url("../img/portrait.png");
       background-size: cover;
       border-radius: 50%;
-      border: solid 3px #5dade2; }
+      border: solid 3px #d8bfd8; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #5dade2; }
+      color: #d8bfd8; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -77,7 +77,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #5dade2; }
+      color: #d8bfd8; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -126,7 +126,7 @@ h3 {
   h2.lg-heading,
   h3.lg-heading {
     font-size: 6rem;
-    padding: 10px;
+    padding: 0 rem 1rem;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; }
   h1.sm-heading,
   h2.sm-heading,
@@ -141,8 +141,8 @@ h3 {
 h4 {
   padding: 70px;
   text-align: center;
-  font-size: 30px;
-  font-family: "Courier New", Courier, monospace; }
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2.3rem; }
 
 h5 {
   font-weight: 300;
@@ -164,7 +164,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #5dade2; }
+  color: #d8bfd8; }
 
 main {
   padding: 4rem;
@@ -174,7 +174,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #5dade2;
+        color: #d8bfd8;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -192,7 +192,7 @@ main {
     height: 320px;
     margin: auto;
     border-radius: 25%;
-    border: #5dade2 3px solid; }
+    border: #d8bfd8 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -205,7 +205,7 @@ main {
   .about-info .activity {
     background: #515151;
     padding: 0.5rem;
-    border-bottom: #5dade2 5px solid; }
+    border-bottom: #d8bfd8 5px solid; }
 
 .projects {
   display: grid;
@@ -216,14 +216,14 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #5dade2;
+      border-color: #d8bfd8;
       transition: all 0.5s ease-out; }
 
 .resume {
   text-align: center; }
   .resume img {
     width: 50%;
-    border: #5dade2 5px solid; }
+    border: #d8bfd8 5px solid; }
 
 .boxes {
   display: flex;
@@ -239,7 +239,7 @@ main {
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
       background: black;
-      color: #5dade2; }
+      color: #d8bfd8; }
       .boxes div:hover span {
         color: white; }
 
@@ -249,8 +249,8 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover, .btn-medium:hover {
-    background: #5dade2;
-    color: #5dade2; }
+    background: #d8bfd8;
+    color: #d8bfd8; }
 
 .btn-dark {
   background: black;
@@ -296,26 +296,6 @@ main {
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
-  ul.menu-nav,
-  div.menu-branding {
-    float: none;
-    width: 100%;
-    min-height: 0; }
-    ul.menu-nav.show,
-    div.menu-branding.show {
-      transform: translate3d(0, 0, 0); }
-  .menu-nav {
-    height: 75vh;
-    transform: translate3d(-100%, 0, 0);
-    font-size: 24px; }
-  .menu-branding {
-    height: 25vh;
-    transform: translate3d(100%, 0, 0); }
-    .menu-branding .portrait {
-      background: url("../img/portrait.png");
-      background-size: cover;
-      width: 150px;
-      height: 150px; }
   .about-info {
     grid-template-areas: "bioimage" "bio" "activity1" "activity2" "activity3";
     grid-template-columns: 1fr; }
